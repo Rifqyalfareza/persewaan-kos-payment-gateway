@@ -213,7 +213,7 @@
                                         @else
                                             <button onclick="openModal({{ $room->id }},{{ $room->price_per_month }})"
                                                 type="button"
-                                                class="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-3 px-4 rounded-lg font-semibold hover:from-blue-700 hover:to-purple-700 transition-all duration-200 transform hover:scale-105 shadow-md hover:shadow-lg">
+                                                class="w-full bg-blue-600 text-white py-3 px-4 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-md hover:shadow-lg">
                                                 Sewa Sekarang
                                             </button>
                                         @endif
